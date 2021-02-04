@@ -31,3 +31,5 @@ end
 4. Rename file `commit-msg.sample` to `commit-msg` and you're all set.
 
 ## Some Changes v2
+
+# Another changes made
