@@ -20,7 +20,7 @@ will be hidden so make sure to make change on your settings.
 message_file = ARGV[0]
 message = File.read(message_file)
 
-$regex = /\[JIRA: (\d+)\]/
+$regex = /\[DEPTH: (\d+)\]/
 
 if !$regex.match(message)
   puts "[WARNING] Your message must be and contain this [JIRA: XXX]"
